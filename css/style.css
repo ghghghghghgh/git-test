@@ -1,0 +1,108 @@
+/* CSS Document */
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.logo{
+	margin: 20px 0;
+	text-align: center;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.nav-menu {
+	float: left;
+	list-style: none;
+	width: 330px;
+	height: 90px;
+	background: #ffb400;
+	color:#FFFFFF;
+	text-align: center;
+	padding: 32px 0;
+	font-size: 30px;
+	font-weight: 300;
+}
+
+.nav-menu2 {
+margin:0 5px;
+}
+
+nav {
+	margin: 20px 0 50px;
+}
+
+h2{
+	color: #0066cc;
+	font-size: 26px;
+	margin-top: 50px;
+	border-bottom: 2px solid #0066cc;
+	padding-bottom: 10px;
+	}
+
+.news{
+	margin-top: 20px;
+}
+
+dt {
+	clear: both;
+	float:left;
+	margin: 0 15px 15px 0;
+	font-size: 16px;
+}
+
+dd {
+	font-size: 16px;
+	margin-bottom: 15px; 
+}
+
+.product {
+	width: 180px;
+	float:left;
+	margin-left: 0;
+}
+.product1 {
+	width: 180px;
+	float:left;
+	margin-left: 25px;
+}
+.product-container{
+	margin-top: 20px;
+}
+
+.price {
+	margin-top: 20px;
+}	
+
+a {
+	text-decoration: none;
+}
+
+a, a:visited {
+  color: #FFFFFF;
+}
+
+footer {
+	height: 100px;
+	background-color: #333333; 
+	margin-top: 50px;
+	text-align: center;
+	width: 100%;
+}
+
+footer small {
+	display: inline-block;
+	padding-top: 30px;
+	color:#FFFFFF;
+	line-height: 30px;
+}
